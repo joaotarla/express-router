@@ -1,0 +1,28 @@
+{
+  "name": "express-router",
+  "version": "1.0.0",
+  "description": "A module to provide out-of-the-box router control like Play and Rails",
+  "main": "app.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "fs": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "make test",
+    "start": "make start"
+  },
+  "keywords": [
+    "express",
+    "router"
+  ],
+  "author": "João Tarla <joao@tarla.com.br>",
+  "license": "MIT"
+}

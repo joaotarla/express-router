@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /healthCheck           controllers.HealthCheckController.healthCheck
+GET     /                      controllers.HealthCheckController.index
+#GET     /                      controllers.Application.index
+#GET     /api/v1/groceries      controllers.GroceriesController.all
