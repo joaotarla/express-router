@@ -5,8 +5,7 @@
 # Usage
 ## Server
 ```javascript
-var app = require('express')();
-var express-router = require('./express-router')(app);
+require('../src/express-router')(app, port, __dirname)
 ```
 
 ## Routes
@@ -20,13 +19,12 @@ DELETE  /users/:id   User.delete
 
 ```
 ## App structure
-When using this module, your app folder structure should be like this:
+When using this module your app folder structure should be like this:
 - app.js
-- express-module.js *change to NPM
-- /routes
+- express-router.js #TODO uses to NPM
+- routes
   - route # plain text route file
 - /controllers
-- /models
 
 ## Issues
 
