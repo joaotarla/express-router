@@ -1,8 +1,8 @@
 {
   "name": "play-express-router",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A module to provide out-of-the-box router control like Play and Rails",
-  "main": "app.coffee",
+  "main": "app.js",
   "directories": {
     "example": "examples",
     "test": "test"
