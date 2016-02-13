@@ -5,6 +5,12 @@ all: jshint test
 test:
 	@NODE_ENV=test ./node_modules/.bin/mocha --recursive --reporter $(REPORTER) --timeout 3000
 
+start:
+	coffee src/index.coffee
+
+prepublish:
+	coffee --output lib --compile src
+
 jshint:
 	jshint lib examples test index.js
 
