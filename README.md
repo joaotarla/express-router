@@ -1,11 +1,11 @@
 # **Express Router**
 [Express router](https://github.com/joaotarla/express-router) is a module to simplify and organize routes on [express](http://expressjs.com) applications, ideal for quickly create REST APIs.
 
-
-# Usage
-## Server
+## Usage
 ```javascript
-require('../src/express-router')(app, port, __dirname)
+val app = require('express')();
+require('play-express-router')(app, 8080, __dirname);
+// Your server is up and running at port 8080! =)
 ```
 
 ## Routes
@@ -20,12 +20,8 @@ DELETE  /users/:id   User.delete
 ```
 ## App structure
 When using this module your app folder structure should be like this:
+
 - app.js
-- express-router.js #TODO uses to NPM
 - routes
-  - route # plain text route file
-- /controllers
+- controllers
 
-## Issues
-
-See <https://github.com/joaotarla/express-router/issues>.
