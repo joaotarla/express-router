@@ -1,1 +1,1 @@
-module.exports = require('./src/express-router');
+module.exports = require('./lib/express-router');
