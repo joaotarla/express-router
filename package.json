@@ -1,7 +1,7 @@
 {
   "name": "play-express-router",
   "version": "1.3.0",
-  "description": "A module to provide out-of-the-box router control like Play and Rails",
+  "description": "A module to provide out-of-the-box router control like Play Framework, Revel and Rails",
   "main": "app.js",
   "directories": {
     "example": "examples",
@@ -27,10 +27,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joaotarla/express-router.git"
+    "url": "git+https://github.com/tarla/express-router.git"
   },
   "bugs": {
-    "url": "https://github.com/joaotarla/express-router/issues"
+    "url": "https://github.com/tarla/express-router/issues"
   },
-  "homepage": "https://github.com/joaotarla/express-router#readme"
+  "homepage": "https://github.com/tarla/express-router#readme"
 }
